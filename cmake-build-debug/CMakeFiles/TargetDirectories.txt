@@ -1,0 +1,3 @@
+C:/Users/kdMot/CLionProjects/C++Course/cmake-build-debug/CMakeFiles/C__Course.dir
+C:/Users/kdMot/CLionProjects/C++Course/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kdMot/CLionProjects/C++Course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
