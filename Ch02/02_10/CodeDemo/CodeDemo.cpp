@@ -9,7 +9,9 @@ using namespace std;
 int main(){
 	int nums[5] = {1,23,32,24,337};
 	float result; 
-    // Write your code here
+
+    result = (nums[0] + nums [1] + nums[2] + nums[3] + nums[4]) / 5.0;
+
 	cout << "The average is " << result << endl;
 	return (0);
 }
