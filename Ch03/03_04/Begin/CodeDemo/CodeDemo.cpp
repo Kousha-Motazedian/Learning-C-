@@ -8,9 +8,24 @@
 
 using namespace std;
 
+int a = 37;
+int *ptr;
+cow *my_cow;
+
 int main(){
-    cow my_cow("Hildy",7,pet);
-    cout << my_cow.get_name() << " is a type-" << (int)my_cow.get_purpose() << " cow." << endl;
-    cout << my_cow.get_name() << " is " << my_cow.get_age() << " years old." << endl;
+    ptr = &a;
+
+    cout << "The content of a is " << a << endl;
+    cout << "ptr is pointing to address " << ptr << endl;
+    cout << "The address of a is " << &a << endl;
+    cout << "Where ptr is pointing, we have " << *ptr << endl;
+    cout << "The address of ptr is " << &ptr << endl;
+    cout << endl;
+
+    my_cow = new cow("Hildy",7,pet);
+    cout << my_cow->get_name() << " is a type-" << (int)my_cow->get_purpose() << " cow." << endl;
+    cout << my_cow->get_name() << " is " << my_cow->get_age() << " years old." << endl;
+
+    delete my_cow;
     return (0);
 }
